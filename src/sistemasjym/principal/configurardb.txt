@@ -1,0 +1,9 @@
+databaseclass=sistemasjym.servicios.Conexion_mySQL
+jdbc=jdbc:mysql://
+driver=com.mysql.jdbc.Driver
+host=localhost
+database=base
+username=root
+password=
+options=charSet=LATIN1
+mostrarpropierties=si
