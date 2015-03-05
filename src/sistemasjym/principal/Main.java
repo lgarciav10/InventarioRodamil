@@ -5,8 +5,9 @@ import java.util.Properties;
 import javax.swing.JOptionPane;
 import sistemasjym.servicios.ConectarServicio;
 import sistemasjym.servicios.Conexion;
-import sistemasjym.ui.Frm_Login;
-import sistemasjym.ui.Frm_Proveedores;
+import sistemasjym.ui.Form_EnviarAProcesar;
+import sistemasjym.ui.Form_GestionArticulos1;
+
 
 public class Main {
 
@@ -45,8 +46,12 @@ public class Main {
         }
 
         try {
-            //Frm_Proveedores fr= new Frm_Proveedores();
-            Frm_Login fr = new Frm_Login();
+           // Frm_Proveedores fr= new Frm_Proveedores();
+            //Frm_Login fr = new Frm_Login();
+            //Form_GestionArticulos fr = new Form_GestionArticulos();
+            //Form_EnviarAProcesar fr = new Form_EnviarAProcesar();
+            //Form_DevolverArticulo fr = new Form_DevolverArticulo();
+            Form_GestionArticulos1 fr = new Form_GestionArticulos1();
             fr.setVisible(true);
 //            ControladorProveedor ct = new ControladorProveedor();
 //            ProveedorConsola pc = new ProveedorConsola(ct);
